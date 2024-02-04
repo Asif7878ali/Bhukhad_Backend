@@ -4,7 +4,7 @@
   "description": "this is a a backend part of project with jwt auth and data store to mongodbaltes",
   "main": "index.js",
   "scripts": {
-    "start": "index.js"
+    "start": "node index.js"
   },
   "author": "asif ali",
   "license": "ISC",
