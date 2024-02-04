@@ -16,6 +16,11 @@ server.use(cors());
 server.use(bodyParser.json());
 
 const port = process.env.PORT || 5000
+
+//Cheking for home route is fine or not
+server.get('/', (req, res) => {
+  res.send('All is Working Fine')
+})
  
 // Signin Data and Save To MongoDB Database
 server.use(register)
